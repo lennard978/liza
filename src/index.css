@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "Great";
+	src: url("/fonts/Great.ttf");
+}
+@font-face {
+	font-family: "Shadows";
+	src: url("/fonts/Shadows.ttf");
+}
