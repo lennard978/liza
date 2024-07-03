@@ -9,4 +9,8 @@ export default defineConfig({
   devOptions: {
     enabled: true,
   },
+  "scripts": {
+    "build": "vite build",
+    "preview": "vite preview"
+  }
 })
