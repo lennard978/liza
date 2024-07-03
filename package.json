@@ -3,7 +3,7 @@
 	"private": true,
 	"version": "0.0.0",
 	"type": "module",
-	"homepage": "https://lennard978.github.io/pwa-vite",
+	"homepage": "https://lennard978.github.io/liza",
 	"scripts": {
 		"dev": "vite",
 		"build": "vite build",
