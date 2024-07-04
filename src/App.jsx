@@ -6,6 +6,7 @@ import { Modal } from "./components/Modal";
 // import { Navigation } from "./components/Navigation";
 import { Contact } from "./screens/Contact";
 import { Home } from "./screens/Home";
+import { Gallery } from "./screens/Gallery";
 
 function App() {
 	const [selected, setSelected] = useState(null);
@@ -14,6 +15,7 @@ function App() {
 			{/* <Navigation /> */}
 			<Home />
 			<List setSelected={setSelected} />
+			{/* <Gallery /> */}
 			<Modal setSelected={setSelected} selected={selected} />
 			<div>
 				<h1 className=" text-3xl text-center pb-4">About me</h1>

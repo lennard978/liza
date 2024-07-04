@@ -27,7 +27,7 @@ const Card = ({ setSelected, item }) => {
 export const List = ({ setSelected }) => {
 	return (
 		<div className="p-4">
-			<h1 className=" font-Great  text-white text-center pb-4 text-3xl">
+			<h1 className=" font-Great  text-black text-center pb-4 text-3xl">
 				Gallery
 			</h1>{" "}
 			<div className=" columns-2 gap-4 md:columns-3 lg:columns-4">
